@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Amaan Textiles - Quality Fabrics & Textile Solutions</title>
+<style>
+  /* Reset & base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  a {
+    text-decoration: none;
+    color: #b34a26;
+  }
+  a:hover, a:focus {
+    color: #7a2e10;
+  }
+  header {
+    background: #b34a26;
+    color: white;
+    padding: 1.2rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  header .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    margin-left: 1.6rem;
+  }
+  nav button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding: 0.3rem 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  nav button:hover, nav button:focus {
+    background-color: white;
+    color: #b34a26;
+  }
+  main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .hero {
+    background: url('https://images.unsplash.com/photo-1624528634517-1cfd93e7e9d3?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    color: white;
+    border-radius: 8px;
+    padding: 4rem 2rem;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(179,74,38,0.7);
+  }
+  .hero h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  .hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+  }
+  .btn-primary {
+    background-color: #7a2e10;
+    color: white;
+    font-weight: 700;
+    padding: 0.9rem 2rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: #5c210b;
+  }
+  section {
+    margin: 3rem 0;
+  }
+  h2.section-title {
+    font-size: 2rem;
+    color: #7a2e10;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
